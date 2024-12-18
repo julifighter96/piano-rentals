@@ -32,8 +32,8 @@ export const Testimonials = () => {
           transition={{ duration: 0.5 }}
           className="text-center mb-16"
         >
-          <span className="text-piano-gold font-medium">Testimonials</span>
-          <h2 className="font-serif text-4xl font-bold mt-2">What Our Clients Say</h2>
+     <span className="text-piano-gold font-medium">Referenzen</span>
+     <h2 className="font-serif text-4xl font-bold mt-2">Das sagen unsere Kunden</h2>
         </motion.div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (

@@ -25,21 +25,22 @@ export const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-center"
         >
-          <motion.span 
-            whileHover={{ scale: 1.05 }}
-            className="inline-block px-3 py-1 bg-piano-gold/10 text-piano-gold rounded-full text-sm font-medium mb-6 backdrop-blur-sm"
-          >
-            Premium Piano Rentals
-          </motion.span>
-          <motion.h1 
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-            className="font-serif text-5xl md:text-7xl font-bold mb-6 tracking-tight text-white"
-          >
-            Experience Musical
-            <br /> Excellence
-          </motion.h1>
+        Copy<motion.span 
+  whileHover={{ scale: 1.05 }}
+  className="inline-block px-3 py-1 bg-piano-gold/10 text-piano-gold rounded-full text-sm font-medium mb-6 backdrop-blur-sm"
+>
+  Premium Klavierverleih
+</motion.span>
+<motion.h1 
+  initial={{ opacity: 0, y: 30 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8, delay: 0.4 }}
+  className="font-serif text-5xl md:text-7xl font-bold mb-6 tracking-tight text-white"
+>
+  Erleben Sie musikalische
+  <br /> Exzellenz
+</motion.h1>
+
           <motion.p 
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

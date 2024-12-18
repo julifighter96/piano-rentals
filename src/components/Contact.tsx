@@ -33,7 +33,7 @@ export const Contact = () => {
             </div>
           </div>
           <button className="bg-piano-gold text-piano-black px-8 py-3 rounded-full hover:bg-piano-gold/90 transition-colors">
-            Beratungstermin vereinbaren
+            Termin vereinbaren
           </button>
         </motion.div>
       </div>
