@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 
 const pianos = [
   {
-    name: "Steinway Model D",
-    image: "https://unsplash.com/de/fotos/schwarz-weiss-klavier-in-nahaufnahme-kGLYLMVs83g",
-    description: "Konzert Piano - Perfekt für professionelle Auftritte",
-    price: "450€"
+    name: "Steinway & Sons Modell D-274",
+    image: "/pianos/steinway-d.jpg",
+    description: "Konzertflügel - Der Maßstab für professionelle Konzertaufführungen",
+    price: "450€ pro Tag"
   }
 ];
 
