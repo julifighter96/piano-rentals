@@ -1,6 +1,9 @@
 import { motion } from "framer-motion";
 import { Hero } from "../components/Hero";
 import { Features } from "../components/Features";
+import { PianoShowcase } from "../components/PianoShowcase";
+import { Testimonials } from "../components/Testimonials";
+import { Pricing } from "../components/Pricing";
 import { Contact } from "../components/Contact";
 
 const Index = () => {
@@ -12,6 +15,9 @@ const Index = () => {
     >
       <Hero />
       <Features />
+      <PianoShowcase />
+      <Testimonials />
+      <Pricing />
       <Contact />
     </motion.div>
   );
