@@ -5,21 +5,9 @@ import { motion } from "framer-motion";
 const pianos = [
   {
     name: "Steinway Model D",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
-    description: "Concert Grand Piano - Perfect for professional performances",
-    price: "$450/month"
-  },
-  {
-    name: "Yamaha C7X",
-    image: "https://images.unsplash.com/photo-1483058712412-4245e9b90334",
-    description: "Semi-Concert Grand - Ideal for large venues",
-    price: "$350/month"
-  },
-  {
-    name: "Boston GP-156",
-    image: "https://images.unsplash.com/photo-1501854140801-50d01698950b",
-    description: "Performance Edition - Great for home practice",
-    price: "$250/month"
+    image: "https://unsplash.com/de/fotos/schwarz-weiss-klavier-in-nahaufnahme-kGLYLMVs83g",
+    description: "Konzert Piano - Perfekt für professionelle Auftritte",
+    price: "450€"
   }
 ];
 
@@ -33,8 +21,8 @@ export const PianoShowcase = () => {
           transition={{ duration: 0.5 }}
           className="text-center mb-16"
         >
-          <span className="text-piano-gold font-medium">Our Collection</span>
-          <h2 className="font-serif text-4xl font-bold mt-2">Featured Pianos</h2>
+          <span className="text-piano-gold font-medium">Unsere Kollektion</span>
+          <h2 className="font-serif text-4xl font-bold mt-2">Pianos</h2>
         </motion.div>
         <Carousel className="w-full max-w-5xl mx-auto">
           <CarouselContent>

@@ -17,7 +17,6 @@ const Index = () => {
       <Features />
       <PianoShowcase />
       <Testimonials />
-      <Pricing />
       <Contact />
     </motion.div>
   );

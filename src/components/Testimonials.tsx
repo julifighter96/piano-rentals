@@ -3,21 +3,21 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
-    role: "Concert Pianist",
-    content: "The quality of their pianos is exceptional. The Steinway I rented was perfectly maintained and delivered right on time.",
+    name: "Sophie Weber",
+    role: "Konzertpianistin",
+    content: "Die Qualität ihrer Klaviere ist außergewöhnlich. Der gemietete Steinway war perfekt gewartet und wurde pünktlich geliefert. Ein Service der Extraklasse!",
     rating: 5
   },
   {
-    name: "Michael Chen",
-    role: "Music Teacher",
-    content: "Outstanding service! My students love practicing on these beautiful instruments. The flexible rental terms are a huge plus.",
+    name: "Michael Schmidt",
+    role: "Musiklehrer",
+    content: "Hervorragender Service! Meine Schüler lieben es, auf diesen wunderschönen Instrumenten zu üben. Die flexiblen Mietkonditionen sind ein großer Vorteil für unsere Musikschule.",
     rating: 5
   },
   {
-    name: "Emily Williams",
-    role: "Event Planner",
-    content: "They made our charity gala unforgettable. The piano was the centerpiece of the evening, and the service was impeccable.",
+    name: "Elena Wagner",
+    role: "Veranstaltungsplanerin",
+    content: "Sie haben unseren Wohltätigkeitsball unvergesslich gemacht. Das Klavier war der Mittelpunkt des Abends, und der Service war tadellos. Besonders die professionelle Stimmung vor Ort hat überzeugt.",
     rating: 5
   }
 ];
